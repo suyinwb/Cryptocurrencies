@@ -8,6 +8,11 @@
 
 ### Purpose
 
+What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
+What data is available? What type? What is missing? What can be removed?
+Is the data in a format that can be passed into an unsupervised learning model?
+Can I quickly hand off this data for others to use?
+
 
 ## Analysis And Challenges
 
