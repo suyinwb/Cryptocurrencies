@@ -31,7 +31,7 @@ The data Martha will be working with is not ideal, so it will need to be process
 NA
 
 #### 5. Assemble & Clean the Data
-The processing is done in [Analysis](#analysis)
+The processing is done in [Preprocessing the Data for PCA](#preprocessing-the-data-for-pca)
 
 #### 6. Analyse for Trends
 
@@ -45,12 +45,33 @@ The "Proper" Conclusion is indicated below in [Summary](#summary)
 
 ## Analysis
 
+### Preprocessing the Data for PCA
+The dataset is preprocessed according to requirements. The processed dataset contains 532 tradable cryptocurrencies.
+
+### Reducing Data Dimensions Using PCA
+
+![PCA](resources/PCA_dimension_reduction.png)
+
+Reduce the width of data with PCA dimension reduction to only 3 components.
+
+### Clustering Crytocurrencies Using K-Means
+
+![elbow](resources/elbow_curve.png)
+
+Finding the best K value using elbow curve. See the above. The best K value is 4. We will run model-fit-predict on this model.
+
+Concatenate all the features into a new dataframe.
+
+### Visualizing Cryptocurrencies Results
+
+We will use the new dataframe to visualise.
+
+![3D](resources/3D_scatter.png)
+
+Using 3D scatter cluster to create cluster visualisation for grouping classification for investment.
+
 
 ## Summary
-
-### Preprocessing the Data for PCA
-The dataset is prepro
-
 
 
 ## Appendix
@@ -59,5 +80,7 @@ The dataset is prepro
 * What data is available? What type? What is missing? What can be removed?
 * Is the data in a format that can be passed into an unsupervised learning model?
 Can I quickly hand off this data for others to use?
+
+
 
 ### References
