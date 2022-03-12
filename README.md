@@ -72,10 +72,11 @@ Using 3D scatter cluster to create cluster visualisation for grouping classifica
 
 ![hvplot.scatter](resources/bokeh_plot.png)
 
-Using hvplot.scatter cluster to create cluster visualisation for grouping classification for investment in 2D. The data needs to be scaled before we can create this visualisation. Here we have used MinMaxScaler().fit_transform to scale the data. 
+Using hvplot.scatter cluster to create cluster visualisation for grouping classification for investment in 2D. The data needs to be scaled before we can create this visualisation. Here we have used MinMaxScaler().fit_transform to scale the data.
 
 ## Summary
 
+Both visualisation confirms that there is 3 grouping classification for this cryptocurrencies dataset that can be used as recommendation for the investment portfolio. 
 
 ## Appendix
 
