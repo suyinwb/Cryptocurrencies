@@ -70,6 +70,9 @@ We will use the new dataframe to visualise.
 
 Using 3D scatter cluster to create cluster visualisation for grouping classification for investment.
 
+![hvplot.scatter](resources/bokeh_plot.png)
+
+Using hvplot.scatter cluster to create cluster visualisation for grouping classification for investment in 2D. The data needs to be scaled before we can create this visualisation. Here we have used MinMaxScaler().fit_transform to scale the data. 
 
 ## Summary
 
