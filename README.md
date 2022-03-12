@@ -2,17 +2,13 @@
 
 ## Background
 
-
+Martha is a senior manager for the Advisory Services Team at Accountability Accounting, one of your most important clients. Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. So, they’ve asked you to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
 
 ## Overview of Project
 
 ### Purpose
 
-What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
-What data is available? What type? What is missing? What can be removed?
-Is the data in a format that can be passed into an unsupervised learning model?
-Can I quickly hand off this data for others to use?
-
+The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
 
 ## Analysis And Challenges
 
@@ -20,12 +16,13 @@ Can I quickly hand off this data for others to use?
 
 #### 1. Decomposing the Ask
 
-* Deliverable 1: Use Resampling Models to Predict Credit Risk
-* Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
-* Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+* Deliverable 1: Preprocessing the Data for PCA
+* Deliverable 2: Reducing Data Dimensions Using PCA
+* Deliverable 3: Clustering Cryptocurrencies Using K-means
+* Deliverable 4: Visualizing Cryptocurrencies Results
 
 #### 2. Identify the Datasource
-*
+* crypto_data.csv from: https://min-api.cryptocompare.com/data/all/coinlist
 
 ### 3. Define Strategy & Metrics
 **Resource:** Python, numpy, pandas, pathlib, collections, sklearn, imblearn
@@ -34,7 +31,7 @@ Can I quickly hand off this data for others to use?
 NA
 
 #### 5. Assemble & Clean the Data
-
+The processing is done in [Analysis](#analysis)
 
 #### 6. Analyse for Trends
 
@@ -51,8 +48,16 @@ The "Proper" Conclusion is indicated below in [Summary](#summary)
 
 ## Summary
 
+### Preprocessing the Data for PCA
+The dataset is prepro
+
 
 
 ## Appendix
+
+* What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
+* What data is available? What type? What is missing? What can be removed?
+* Is the data in a format that can be passed into an unsupervised learning model?
+Can I quickly hand off this data for others to use?
 
 ### References
