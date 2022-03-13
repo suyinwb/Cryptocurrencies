@@ -25,7 +25,7 @@ The data Martha will be working with is not ideal, so it will need to be process
 * crypto_data.csv from: https://min-api.cryptocompare.com/data/all/coinlist
 
 ### 3. Define Strategy & Metrics
-**Resource:** Python, numpy, pandas, pathlib, collections, sklearn, imblearn
+**Resource:** Python, numpy, pandas, path, collechvplot.pandas, sklearn, plotly.express, StandardScaler, MinMaxScaler, PCA, KMeans
 
 #### 4. Data Retrieval Plan
 NA
@@ -76,7 +76,7 @@ Using hvplot.scatter cluster to create cluster visualisation for grouping classi
 
 ## Summary
 
-Both visualisation confirms that there is 3 grouping classification for this cryptocurrencies dataset that can be used as recommendation for the investment portfolio. 
+Both visualisation confirms that there is 3 grouping classification for this cryptocurrencies dataset that can be used as recommendation for the investment portfolio.
 
 ## Appendix
 
